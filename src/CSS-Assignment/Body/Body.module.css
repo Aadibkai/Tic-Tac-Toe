@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;    
+}
+
+.left{
+ 
+ margin-left: 112px;
+ margin-top: 70px;
+ height: 54px;
+ width: 856px;
+ align-items: center;
+}
+
+.left p{
+    margin-top: 22px;
+    height: 2rem;
+    text-decoration: none;
+}
+
+.left h1{
+    padding: 8px;
+    width: 345px;
+}
+
+.left button{
+   border-radius: 19px solid rgb(241, 195, 67);
+}
+.right{
+  
+    margin-left: 20px;
+    height: 1092px;
+    /* width: min-content;   */
+}
+
+.right img{
+    height: 423px;
+    margin-right: 32px;
+}
+

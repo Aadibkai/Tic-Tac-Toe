@@ -1,0 +1,31 @@
+div {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.left {
+
+    height: 734px;
+
+}
+
+img {
+    height: 365px;
+    width: 422px;
+    margin-top: 83px;
+    margin-left: 75px;
+}
+
+button {
+    width: 150px;
+    padding: 4px;
+    margin-left: 423px;
+    margin-top: 0px;
+    justify-content: center;
+    background-color: brown;
+    box-shadow: 2px 3px 3px 2px rgb(223, 187, 187);
+    height: 43px;
+    
+    
+}
+

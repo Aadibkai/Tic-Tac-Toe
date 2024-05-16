@@ -1,0 +1,27 @@
+.Wrapper {
+    overflow: auto;
+    white-space: nowrap;
+    background-color: antiquewhite;
+    max-height: 320px;
+    margin-top: 72px;
+}
+
+.slider {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 70px;
+    margin-top: 23px;
+    background-color: rgb(208, 238, 228);
+    border-radius: 24px;
+
+}
+
+.img {
+    height: 93px;
+    border-radius: 96px;
+}
+
+.Wrapper::-webkit-scrollbar {
+    display: none;
+}

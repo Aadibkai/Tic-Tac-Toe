@@ -1,0 +1,28 @@
+.Container{
+    flex: 1;
+    margin-left:25%;
+    margin-top: 23px;
+    border: 2px solid black;
+    width: 439px;
+    height: 290px;
+    justify-content: center;
+    background-color: rgb(175, 221, 206);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 3px rgb(209, 222, 228);
+    
+}
+
+h1{
+    margin-left: 140px;
+}
+
+.TextArea{
+    margin-left: 50px;
+
+}
+textarea{
+    background-color: azure;
+    justify-content: center;
+    height: 123px;
+    width:350px;
+}

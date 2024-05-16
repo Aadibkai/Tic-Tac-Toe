@@ -1,0 +1,127 @@
+.TopNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background-color: rgb(220, 240, 248);
+    box-shadow: 0 5px 15px rgb(189, 138, 138);
+}
+
+#logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+   
+    color: rgb(18, 18, 71)
+}
+
+.navCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.navCon li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.navCon li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navCon li a:hover {
+    color: rgb(235, 140, 235);
+}
+
+
+.Sign-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(216, 150, 163);
+}
+
+.Sign-form button {
+    background-color: rgb(126, 126, 224);
+    color: black;
+}
+
+#log a {
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#btn button {
+    padding: 7px;
+    margin-left: 12px;
+    width: 90px;
+    border-radius: 15px solid rgb(212, 149, 30);
+}
+
+#btn button a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.mobile-menu-icons {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:650px) {
+     .mobile-menu-icons{
+        display: flex;
+     }
+     
+    .logo{
+        display: flex;
+        position:absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+  .navCon{
+    display: none;
+  }
+   
+    .mobile-menu-icons{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: rgb(156, 207, 228);
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+
+    .manu-links ul{
+        color: #fff;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+
+    }
+
+    
+}
